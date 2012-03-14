@@ -3,6 +3,9 @@
 # require 'slim'
 # require 'coffee-script'
 
+# [v2.1.3] Change the preview server (default: Rack::Handler::WEBrick)
+# configuration.preview_server = Rack::Handler::Thin
+
 configuration.preview_server_port = 4000
 configuration.default_template_engine = :haml
 configuration.preview_server_host = "localhost"
